@@ -1,0 +1,2923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <CompilationType>CSharp</CompilationType>
+  <Description i:nil="true" />
+  <Id>26711e8d-280b-4d83-baa2-3bb30a6bcb06</Id>
+  <Logic z:Id="i2" i:type="ExecutedStep">
+    <Childs>
+      <AbstractStep z:Id="i3" i:type="CommentStep">
+        <Childs />
+        <Id>f8953489-1599-41db-a144-928df85fac1e</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
+        <Text>___________________________________________________________________________________________________________________________</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i4" i:type="ExecutedStep">
+        <Childs />
+        <Id>00c04926-d2ca-4e52-a9f3-50dbcf8892df</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i5">
+            <PropertyName>Token</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"8087649652:AAEQFUDSrgaoamf4MFarVbQq9a0ZUxy1AjQ"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i6">
+            <PropertyName>Client</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>telegram</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Conexion con StarBot | Telegram</Text>
+        <_activityFullName>Activities.Telegram.CreateConnection</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i7" i:type="ExecutedStep">
+        <Childs />
+        <Id>a0c2fd25-434e-4075-ac09-d2ce6f5ab52f</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i8">
+            <PropertyName>CredentialPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"config\sheets.json"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i9">
+            <PropertyName>SpreadsheetId</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"1gsnrCQozozgCe0zXLFVPs9-q8FMCzrNXdg4JuojsCOo"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i10">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>sheets</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Google Sheets | "Inventario All Star"</Text>
+        <_activityFullName>Activities.GoogleSheets.StartService</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i11" i:type="ExecutedStep">
+        <Childs />
+        <Id>87e178a3-1f82-4b4a-b495-47ff7a1a6736</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i12">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>DateTime.Now;</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i13">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>temp_StartTime</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Inicio de cronometro</Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i14" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i15" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i16" i:type="CommentStep">
+                <Childs />
+                <Id>efb92b9f-0591-4931-bf8c-289497571105</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <IsCollapsed>false</IsCollapsed>
+                <Text>___________________________________________________________________________________________________________________________</Text>
+              </AbstractStep>
+              <AbstractStep z:Id="i17" i:type="ExecutedStep">
+                <Childs />
+                <Id>819636ec-5fa8-48cc-a003-a7a33154427b</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i18">
+                    <PropertyName>Message</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"🗒️    Spatch BOT | Inicio su ejecucion\n\n"+
+$"🕒 Hora de inicio: {DateTime.Now}\n\n"+
+$"🔔! Atencion con los mensajes !"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i19">
+                    <PropertyName>ActiveClient</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>telegram</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i20">
+                    <PropertyName>ChatID</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>user_TelegramID</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Mensaje | Inicio de proceso</Text>
+                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i21" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i22" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>59e19299-9c27-4f2a-83f5-843071085269</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i23">
+                        <PropertyName>FileDirectoryPath</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>$"{dir_BotFolder}\\assets\\Éxito\\Pendientes_Planilla.txt"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i24">
+                        <PropertyName>Result</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_exito</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>¿Hay pedidos pendientes de Exito?</Text>
+                    <_activityFullName>Activities.Files.PathExist</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i25" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>e8edb507-a796-4672-9334-a2c66d716153</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i26">
+                        <PropertyName>Condition</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_exito</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i27">
+                        <PropertyName>GUID</PropertyName>
+                        <_dataType>Value</_dataType>
+                        <_expression i:nil="true" />
+                        <_screenShotBase64 i:nil="true" />
+                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:string">21aee660-13aa-45af-9a7c-3b65769125f7</_value>
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Ir a:  Script Exito</Text>
+                    <_activityFullName>BR.BaseActivities.ConditionalGoTo</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i28" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>1be36d52-22c1-49e2-8a1e-366521cfd864</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i29">
+                        <PropertyName>FileDirectoryPath</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>$"{dir_BotFolder}\\assets\\Falabella\\Pendientes_Planilla.txt"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i30">
+                        <PropertyName>Result</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_falabella</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>¿Hay pedidos pendientes de Falabella?</Text>
+                    <_activityFullName>Activities.Files.PathExist</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i31" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>61cbf2d1-5052-44e9-a5fe-73b2136104a7</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i32">
+                        <PropertyName>Condition</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_falabella</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i33">
+                        <PropertyName>GUID</PropertyName>
+                        <_dataType>Value</_dataType>
+                        <_expression i:nil="true" />
+                        <_screenShotBase64 i:nil="true" />
+                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:string">081284bf-a9df-4673-8da7-23c556df3e6d</_value>
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Ir a: Script Falabella</Text>
+                    <_activityFullName>BR.BaseActivities.ConditionalGoTo</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i34" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>999f8f3b-bba8-4cca-82cd-bbd2f6e77198</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i35">
+                        <PropertyName>FileDirectoryPath</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>$"{dir_BotFolder}\\assets\\Sodimac\\Pendientes_Planilla.txt"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i36">
+                        <PropertyName>Result</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_sodimac</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>¿Hay pedidos pendientes de Sodimac?</Text>
+                    <_activityFullName>Activities.Files.PathExist</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i37" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>17f5ede3-e677-4154-9c3c-ff9da32cf0b9</Id>
+                    <Parent z:Ref="i21" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i38">
+                        <PropertyName>Condition</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>bool_sodimac</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i39">
+                        <PropertyName>GUID</PropertyName>
+                        <_dataType>Value</_dataType>
+                        <_expression i:nil="true" />
+                        <_screenShotBase64 i:nil="true" />
+                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:string">5ca5ece8-1541-4fde-b831-c41312b49c97</_value>
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Ir a: Script Sodimac</Text>
+                    <_activityFullName>BR.BaseActivities.ConditionalGoTo</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>b8164659-2bad-4ed1-b8e2-5702ed06b80a</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Comprobacion Backup: Planillas pendientes por llenar</Text>
+                <_activityFullName>BR.Core.Base.Container</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i40" i:type="ExecutedStep">
+                <Childs />
+                <Id>51c5c344-b269-4316-a04b-a81c0a513782</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i41">
+                    <PropertyName>Value</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>dir_BotFolder +"\\assets\\Pendientes.txt"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i42">
+                    <PropertyName>To</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>dir_PendingTasks</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Variable: Direccion al archivo de [Pendientes.txt]</Text>
+                <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i43" i:type="ExecutedStep">
+                <Childs />
+                <Id>1a01d475-9d65-4d43-ac7f-744b9f341439</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i44">
+                    <PropertyName>List</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>list_AuxRowsSheets</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Variable: Lista con filas del sheets de los productos pendientes</Text>
+                <_activityFullName>Activities.BaseCollections.List.CreateList</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i45" i:type="ExecutedStep">
+                <Childs />
+                <Id>00e4bbb4-75a0-4d5c-b657-0b4a2808abbc</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i46">
+                    <PropertyName>FileDirectoryPath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>dir_PendingTasks</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i47">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_DirTasks</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Comprobar: existencia "Pendientes.txt"</Text>
+                <_activityFullName>Activities.Files.PathExist</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i48" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i49" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i50" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>5a6fef9e-7d3d-4a00-b247-c3f18c1dbb63</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i51">
+                            <PropertyName>Value</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression> File.ReadAllLines(dir_PendingTasks).ToList()</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i52">
+                            <PropertyName>To</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>aux_TextLine</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i53" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>e6f65a05-0775-4609-be02-643381613af7</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i54">
+                            <PropertyName>Message</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>$"_______________________________________\n\n"+
+$"📁 Hay {aux_TextLine.Count} pedidos pendientes por revisar\n"+
+$"_______________________________________"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i55">
+                            <PropertyName>ActiveClient</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>telegram</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i56">
+                            <PropertyName>ChatID</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>user_TelegramID</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Mensaje | Actualizacion de tareas</Text>
+                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i57" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>20daa2ea-0e1f-4264-993a-6c597d9f522b</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i58">
+                            <PropertyName>SheetName</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>"Togocol"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i59">
+                            <PropertyName>Range</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>"A2:AZ2"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i60">
+                            <PropertyName>Result</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>aux_Sheetsheaders</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i61">
+                            <PropertyName>Service</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>sheets</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i62">
+                            <PropertyName>WithHeaders</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:boolean">false</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Leer cabeceras "Togocol" | Sheets</Text>
+                        <_activityFullName>Activities.GoogleSheets.ReadRange</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i63" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>b8bef816-5863-495c-869b-006fe32455ef</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i64">
+                            <PropertyName>CSCode</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">SheetsTable = aux_Sheetsheaders.Clone();</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Inicializacion de Tabla de "Togocol"</Text>
+                        <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i65" i:type="ExecutedStep">
+                        <Childs>
+                          <AbstractStep z:Id="i66" i:type="ExecutedStep">
+                            <Childs />
+                            <Id>05762e72-e84f-4ed3-b648-c7ef26e5b6a4</Id>
+                            <Parent z:Ref="i65" />
+                            <PropertyValues>
+                              <PropertyValue z:Id="i67">
+                                <PropertyName>SheetName</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>"Togocol"</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i68">
+                                <PropertyName>Range</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>$"A{column}:AZ{column}"</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i69">
+                                <PropertyName>WithHeaders</PropertyName>
+                                <_dataType>Value</_dataType>
+                                <_expression i:nil="true" />
+                                <_screenShotBase64 i:nil="true" />
+                                <_value xmlns:d17p1="http://www.w3.org/2001/XMLSchema" i:type="d17p1:boolean">false</_value>
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i70">
+                                <PropertyName>Result</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>aux_sheetsRow</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i71">
+                                <PropertyName>Service</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>sheets</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                            </PropertyValues>
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>Leer la fila del pedido pendiente</Text>
+                            <_activityFullName>Activities.GoogleSheets.ReadRange</_activityFullName>
+                          </AbstractStep>
+                          <AbstractStep z:Id="i72" i:type="ExecutedStep">
+                            <Childs />
+                            <Id>9929a1cd-2c7a-4e43-b3ce-b6b017efe2f8</Id>
+                            <Parent z:Ref="i65" />
+                            <PropertyValues>
+                              <PropertyValue z:Id="i73">
+                                <PropertyName>CSCode</PropertyName>
+                                <_dataType>Value</_dataType>
+                                <_expression i:nil="true" />
+                                <_screenShotBase64 i:nil="true" />
+                                <_value xmlns:d17p1="http://www.w3.org/2001/XMLSchema" i:type="d17p1:string">SheetsTable.ImportRow(aux_sheetsRow.Rows[0]);</_value>
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                            </PropertyValues>
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>Anexar la informacion del pedido pendiente</Text>
+                            <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                          </AbstractStep>
+                          <AbstractStep z:Id="i74" i:type="ExecutedStep">
+                            <Childs />
+                            <Id>a32329c0-3c09-4ab2-9d31-af5944f509b4</Id>
+                            <Parent z:Ref="i65" />
+                            <PropertyValues>
+                              <PropertyValue z:Id="i75">
+                                <PropertyName>Message</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>$"_______________________________________\n\n"+
+$"🔉 Esta pendiente el pedido N°{aux_sheetsRow.Rows[0]["Orden de Compra"]}\n"+
+$"_______________________________________"</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i76">
+                                <PropertyName>ActiveClient</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>telegram</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                              <PropertyValue z:Id="i77">
+                                <PropertyName>ChatID</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>user_TelegramID</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                            </PropertyValues>
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>Mensaje | Anuncio de pedido recuperado</Text>
+                            <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                          </AbstractStep>
+                          <AbstractStep z:Id="i78" i:type="ExecutedStep">
+                            <Childs />
+                            <Id>1090b9ed-377a-46c5-ba1f-842593316d2d</Id>
+                            <Parent z:Ref="i65" />
+                            <PropertyValues />
+                            <SelectedOptionId>0</SelectedOptionId>
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>System Pause</Text>
+                            <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                          </AbstractStep>
+                        </Childs>
+                        <Id>4c8dc833-e5ea-4756-b8f5-01d797bc59df</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i79">
+                            <PropertyName>Collection</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>aux_TextLine</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i80">
+                            <PropertyName>Iterator</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>column</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i81">
+                            <PropertyName>Counter</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression></_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Ciclo: recorrido de los pedidos en Pendientes.txt</Text>
+                        <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i82" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>378ee17e-d424-44cb-89e8-05075497ce47</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i83">
+                            <PropertyName>CSCode</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">for(int i = 0; i &lt; aux_Sheetsheaders.Columns.Count; i++)
+{
+    SheetsTable.Columns[i].ColumnName = aux_Sheetsheaders.Rows[0][i].ToString();
+}</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Auxiliar | Establece correctamente las columnas de la tabla de Sheets</Text>
+                        <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i84" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>ea0da77a-c411-40a5-856f-29412b411b12</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues />
+                        <SelectedOptionId>0</SelectedOptionId>
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>System Pause</Text>
+                        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i85" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>67e9c323-6587-439d-9f1e-6bded0b608cd</Id>
+                        <Parent z:Ref="i49" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i86">
+                            <PropertyName>GUID</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">f4492608-628c-43d2-8ad8-13f9e4823912</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Ir a: Leer hoja "Inventario All Star" | Sheets</Text>
+                        <_activityFullName>BR.BaseActivities.ConditionalGoTo</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>dbfcb89b-7993-473b-bdba-7a58bc1369b4</Id>
+                    <Parent z:Ref="i48" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Si</Text>
+                    <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i87" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i88" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>976a7c93-1312-4480-a71a-a57ad6b66fb8</Id>
+                        <Parent z:Ref="i87" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i89">
+                            <PropertyName>Message</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>$"_______________________________________\n\n"+
+$"📁 No se encontro archivo de Pendientes.txt\n"+
+$"❕ Se buscara pendientes directamente en Sheets\n"+
+$"_______________________________________"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i90">
+                            <PropertyName>ActiveClient</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>telegram</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i91">
+                            <PropertyName>ChatID</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>user_TelegramID</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Mensaje | Actualizacion de tareas</Text>
+                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>8b575f26-0305-4309-9607-98e9ae7e3b4b</Id>
+                    <Parent z:Ref="i48" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>d1a1362d-f102-47ff-9550-e784acfa3697</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i92">
+                    <PropertyName>Condition</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_DirTasks</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Hay archivo de Pendientes.txt?</Text>
+                <_activityFullName>BR.Core.Base.If</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i93" i:type="ExecutedStep">
+                <Childs />
+                <Id>e1dda42d-e6fd-4680-9d87-c162f18da161</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i94">
+                    <PropertyName>Count</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>1</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId>0</SelectedOptionId>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Delay Transitorio</Text>
+                <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i95" i:type="ExecutedStep">
+                <Childs />
+                <Id>b8b57d2f-8e0f-4d14-9d51-f4b14081bf68</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i96">
+                    <PropertyName>Message</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"_______________________________________\n\n"+
+$"🔔 Spatch procedera con la revision de pedidos\n"+
+$"_______________________________________"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i97">
+                    <PropertyName>ActiveClient</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>telegram</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i98">
+                    <PropertyName>ChatID</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>user_TelegramID</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Mensaje | Revision de pedidos</Text>
+                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i99" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i100" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>8ec8fff0-8d08-4b13-9a47-ef273a240435</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i101">
+                        <PropertyName>SheetName</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"Togocol"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i102">
+                        <PropertyName>Range</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"A2:AZ"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i103">
+                        <PropertyName>Result</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>SheetsTable</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i104">
+                        <PropertyName>Service</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>sheets</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Leer hoja "Togocol" | Sheets</Text>
+                    <_activityFullName>Activities.GoogleSheets.ReadRange</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i105" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>7925f617-150b-48ee-9c98-432f2dd332e8</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i106">
+                        <PropertyName>CSCode</PropertyName>
+                        <_dataType>Value</_dataType>
+                        <_expression i:nil="true" />
+                        <_screenShotBase64 i:nil="true" />
+                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:string">/*
+
+Code:
+
+Codigo realizado para filtrar inicialmente los pedidos pendientes validos. En base a:
+
+- Fecha de pedido; indica la fecha del pedido y permitira evitar que el Bot recorra filas demas.
+- Estado Produccion; indica si el pedido ya se encuentra disponible para el envio.
+- Estado Despacho; indica si el pedido ha sido o no despachado.
+- Item; es un ID que identifica el pedido con un elemento de la empresa.
+
+Las condicionales de un pedido pendiente es:
+
+1. Fecha de pedido despues de la ultima fecha de revision del sheets por parte del Bot
+2. Estado de despacho igual a "Pendiente"
+3. Estado de Produccion debe ser "Inventario" o "Empacado"
+4. Item debe ser diferente a vacio.
+
+*/
+
+bool ban_fecha; //Indica que la fecha sea valida
+string[] fecha = ultima_Fecha.Split("/"); //Separador de dia, mes y año de la ultima fecha de revision
+DataTable aux_table = SheetsTable.Clone(); //Variable auxiliar
+
+for (int i = SheetsTable.Rows.Count - 1; i &gt;= 0; i--)
+{
+    DataRow fila = SheetsTable.Rows[i];
+    ban_fecha = false;
+    
+    //Filtro inicial: fecha de pedido
+    if(fila["Fecha de Pedido"].ToString().Contains(fecha[2])) //Comprobacion de año correcto
+    {
+        string[] fecha_sheets = fila["Fecha de Pedido"].ToString().Split("/");
+        
+        if(int.Parse(fecha_sheets[1]) &gt; int.Parse(fecha[1])) //Comprobacion, mes siguiente
+        {
+            ban_fecha = true;
+        }
+        else if(int.Parse(fecha_sheets[1]) == int.Parse(fecha[1])) //Comprobacion: mismo mes
+        {
+            if(int.Parse(fecha_sheets[0]) &gt; int.Parse(fecha[0])) //Dia siguiente
+            {
+                ban_fecha = true;
+            }
+        }
+    }
+    else
+    {
+        break;
+    }
+    
+    //Filtro Principal: Estado de despacho, Estado de produccion e Item
+    if(ban_fecha == true)
+    {
+    // &amp;&amp; (!fila["Item"].Equals(""))
+        /*if((fila["Estado Despacho"].Equals("Pendiente")) &amp;&amp; ((fila["Estado Producción"].Equals("Inventario")) || (fila["Estado Producción"].Equals("Empacado"))))
+        {
+            aux_table.ImportRow(fila);
+            list_AuxRowsSheets.Add(i+3);
+        }*/
+        aux_table.ImportRow(fila);
+        list_AuxRowsSheets.Add(i+3);
+    }
+}
+
+SheetsTable = aux_table;</_value>
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Filtrado de pedidos pendientes</Text>
+                    <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i107" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i108" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>6535766d-7d92-4f49-aa15-e2a8477be78d</Id>
+                        <Parent z:Ref="i107" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i109">
+                            <PropertyName>FilePath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>dir_BotFolder +"\\assets\\Pendientes.txt"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i110">
+                            <PropertyName>Text</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>fila +"\n"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Archivo Backup "Pendientes.txt"</Text>
+                        <_activityFullName>Activities.Files.WriteFile</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>1866a802-81e6-42c4-9360-0f226cfa009e</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i111">
+                        <PropertyName>Collection</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>list_AuxRowsSheets</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i112">
+                        <PropertyName>Iterator</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>fila</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i113">
+                        <PropertyName>Counter</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>i</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Ciclo: Guardando productos pendientes en .txt</Text>
+                    <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i114" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>197eab6e-094b-456c-91f5-3dc88a5eba35</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i115">
+                        <PropertyName>Message</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>$"_______________________________________\n\n"+
+$"📁 Acabo de crear el archivo de Pendientes.txt con {list_AuxRowsSheets.Count} tareas\n\n"+
+$"❕ Voy a proceder a evaluar los pedidos\n"+
+$"_______________________________________"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i116">
+                        <PropertyName>ActiveClient</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>telegram</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i117">
+                        <PropertyName>ChatID</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>user_TelegramID</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Mensaje | Creacion archivo "Pendientes.txt"</Text>
+                    <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i118" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>f4492608-628c-43d2-8ad8-13f9e4823912</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i119">
+                        <PropertyName>Count</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>500</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId>1</SelectedOptionId>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Delay Transitorio</Text>
+                    <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i120" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>ed263233-92c4-4738-8f32-61aec80ac8b2</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i121">
+                        <PropertyName>SheetName</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"Inventario All Star"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i122">
+                        <PropertyName>Range</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"A2:O"</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i123">
+                        <PropertyName>Result</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>aux_InventarioTable</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i124">
+                        <PropertyName>Service</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>sheets</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Leer hoja "Inventario All Star" | Sheets</Text>
+                    <_activityFullName>Activities.GoogleSheets.ReadRange</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i125" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i126" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>073a7696-2db3-4018-9649-9a12d454f7dc</Id>
+                        <Parent z:Ref="i125" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i127">
+                            <PropertyName>Value</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>SheetsTable.Rows[0]</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i128">
+                            <PropertyName>To</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>fila</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Auxiliar: Pedido actual</Text>
+                        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i129" i:type="ExecutedStep">
+                        <Childs>
+                          <AbstractStep z:Id="i130" i:type="ExecutedStep">
+                            <Childs>
+                              <AbstractStep z:Id="i131" i:type="ExecutedStep">
+                                <Childs />
+                                <Id>091ad34c-f5c7-40f2-8bd7-bd1d8360171f</Id>
+                                <Parent z:Ref="i130" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i132">
+                                    <PropertyName>Message</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>$"_______________________________________\n\n"+
+$"❌ Pedido {fila["Orden de Compra"]} no tiene item.\n"+
+$"_______________________________________"</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                  <PropertyValue z:Id="i133">
+                                    <PropertyName>ActiveClient</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>telegram</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                  <PropertyValue z:Id="i134">
+                                    <PropertyName>ChatID</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>user_TelegramID</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>Mensaje | Pedido sin item</Text>
+                                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                              </AbstractStep>
+                            </Childs>
+                            <Id>01875a0b-3764-47d3-a45b-4dc926b943e5</Id>
+                            <Parent z:Ref="i129" />
+                            <PropertyValues />
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>Si</Text>
+                            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                          </AbstractStep>
+                          <AbstractStep z:Id="i135" i:type="ExecutedStep">
+                            <Childs>
+                              <AbstractStep z:Id="i136" i:type="ExecutedStep">
+                                <Childs />
+                                <Id>1f78fa16-2b5e-4c3f-a231-79202903cf2f</Id>
+                                <Parent z:Ref="i135" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i137">
+                                    <PropertyName>To</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>aux</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                  <PropertyValue z:Id="i138">
+                                    <PropertyName>Value</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>aux_InventarioTable.NewRow();</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>Variable Auxiliar</Text>
+                                <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                              </AbstractStep>
+                              <AbstractStep z:Id="i139" i:type="ExecutedStep">
+                                <Childs />
+                                <Id>08694830-5e15-4dc9-9baa-ba5108326f39</Id>
+                                <Parent z:Ref="i135" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i140">
+                                    <PropertyName>CSCode</PropertyName>
+                                    <_dataType>Value</_dataType>
+                                    <_expression i:nil="true" />
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value xmlns:d19p1="http://www.w3.org/2001/XMLSchema" i:type="d19p1:string">aux = aux_InventarioTable.Select($"CODIGO = '{fila["Item"]}'").FirstOrDefault();</_value>
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>Codigo: Busqueda del item en "Inventario All Star"</Text>
+                                <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                              </AbstractStep>
+                              <AbstractStep z:Id="i141" i:type="ExecutedStep">
+                                <Childs />
+                                <Id>7c7f1536-5bf1-4669-8012-398618df5797</Id>
+                                <Parent z:Ref="i135" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i142">
+                                    <PropertyName>To</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>bool_MNO</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                  <PropertyValue z:Id="i143">
+                                    <PropertyName>Value</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>false</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>Booleano que comprueba la condicion MNO</Text>
+                                <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                              </AbstractStep>
+                              <AbstractStep z:Id="i144" i:type="ExecutedStep">
+                                <Childs>
+                                  <AbstractStep z:Id="i145" i:type="ExecutedStep">
+                                    <Childs>
+                                      <AbstractStep z:Id="i146" i:type="ExecutedStep">
+                                        <Childs />
+                                        <Id>5868e0a0-e506-4cdb-a88b-04ef39375d8c</Id>
+                                        <Parent z:Ref="i145" />
+                                        <PropertyValues />
+                                        <SelectedOptionId>0</SelectedOptionId>
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>true</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text></Text>
+                                        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                                      </AbstractStep>
+                                      <AbstractStep z:Id="i147" i:type="ExecutedStep">
+                                        <Childs />
+                                        <Id>a516d51e-ec05-4f1d-a328-00074fc61767</Id>
+                                        <Parent z:Ref="i145" />
+                                        <PropertyValues>
+                                          <PropertyValue z:Id="i148">
+                                            <PropertyName>Text</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>aux["FECHA DESPACHO"] +"\n\n"+ aux["FECHA DESPACHO"].GetType() + "\n\n"+ (string.IsNullOrEmpty(aux["FECHA DESPACHO"].ToString())).ToString()</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                        </PropertyValues>
+                                        <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>false</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text></Text>
+                                        <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+                                      </AbstractStep>
+                                      <AbstractStep z:Id="i149" i:type="ExecutedStep">
+                                        <Childs />
+                                        <Id>4d19cb29-2625-435b-ba93-c8f82c271335</Id>
+                                        <Parent z:Ref="i145" />
+                                        <PropertyValues>
+                                          <PropertyValue z:Id="i150">
+                                            <PropertyName>CSCode</PropertyName>
+                                            <_dataType>Value</_dataType>
+                                            <_expression i:nil="true" />
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value xmlns:d23p1="http://www.w3.org/2001/XMLSchema" i:type="d23p1:string">if((string.IsNullOrEmpty(aux["FECHA DESPACHO"].ToString())) &amp;&amp; (string.IsNullOrEmpty(aux["FACTURA"].ToString())) &amp;&amp; (string.IsNullOrEmpty(aux["REMISION"].ToString())))
+{
+    bool_MNO = true;
+}</_value>
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                        </PropertyValues>
+                                        <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>true</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text>Codigo: Verificacion MNO</Text>
+                                        <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                                      </AbstractStep>
+                                      <AbstractStep z:Id="i151" i:type="ExecutedStep">
+                                        <Childs>
+                                          <AbstractStep z:Id="i152" i:type="ExecutedStep">
+                                            <Childs>
+                                              <AbstractStep z:Id="i153" i:type="ExecutedStep">
+                                                <Childs />
+                                                <Id>29891b3a-476e-46c8-bb6e-720fd1fb97a1</Id>
+                                                <Parent z:Ref="i152" />
+                                                <PropertyValues>
+                                                  <PropertyValue z:Id="i154">
+                                                    <PropertyName>Message</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>$"_______________________________________\n\n"+
+$"✔️ Pedido {fila["Orden de Compra"]} tiene item y cumple con MNO.\n\n"+
+$"❕ Sera anexado a la carpeta de {fila["Plataforma"]}\n"+
+$"_______________________________________"</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i155">
+                                                    <PropertyName>ActiveClient</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>telegram</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i156">
+                                                    <PropertyName>ChatID</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>user_TelegramID</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                </PropertyValues>
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text>Mensaje | Pedido para planilla</Text>
+                                                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                                              </AbstractStep>
+                                              <AbstractStep z:Id="i157" i:type="ExecutedStep">
+                                                <Childs />
+                                                <Id>4737a6ad-9a58-4a32-8511-2a60b55d05e8</Id>
+                                                <Parent z:Ref="i152" />
+                                                <PropertyValues>
+                                                  <PropertyValue z:Id="i158">
+                                                    <PropertyName>Value</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>$"{fila["Fecha de Pedido"]},{fila["Cliente"]},{fila["ID"]},{fila["Contacto"]},{fila["Dirección"]},{fila["Ciudad"]},{fila["Orden de Compra"]},{fila["SKU Interno"]},{fila["Producto"]},{fila["# Guía"]},{fila["Costo"]},{fila["Precio SIN IVA"]},{fila["Precio con IVA"]},{fila["Item"]}\n"</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i159">
+                                                    <PropertyName>To</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>aux_TextOut</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                </PropertyValues>
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text>Auxiliar: datos del pedido</Text>
+                                                <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                                              </AbstractStep>
+                                              <AbstractStep z:Id="i160" i:type="ExecutedStep">
+                                                <Childs />
+                                                <Id>e1cb23f5-d4da-4bfc-9c16-4aff57851392</Id>
+                                                <Parent z:Ref="i152" />
+                                                <PropertyValues>
+                                                  <PropertyValue z:Id="i161">
+                                                    <PropertyName>FilePath</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>$"{dir_BotFolder}\\assets\\{fila["Plataforma"]}\\Pendientes_Planilla.txt"</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i162">
+                                                    <PropertyName>Text</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>aux_TextOut</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                </PropertyValues>
+                                                <SelectedOptionId>1</SelectedOptionId>
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text>Agregar el pedido al archivo de su retailer</Text>
+                                                <_activityFullName>Activities.Files.WriteFile</_activityFullName>
+                                              </AbstractStep>
+                                            </Childs>
+                                            <Id>1737958b-9b66-4b8a-b314-756bbbac0b77</Id>
+                                            <Parent z:Ref="i151" />
+                                            <PropertyValues />
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>Si</Text>
+                                            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                                          </AbstractStep>
+                                          <AbstractStep z:Id="i163" i:type="ExecutedStep">
+                                            <Childs>
+                                              <AbstractStep z:Id="i164" i:type="ExecutedStep">
+                                                <Childs />
+                                                <Id>86e88712-245d-4e42-a3f8-755b8399cf1c</Id>
+                                                <Parent z:Ref="i163" />
+                                                <PropertyValues>
+                                                  <PropertyValue z:Id="i165">
+                                                    <PropertyName>Message</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>$"_______________________________________\n\n"+
+$"❌ Pedido {fila["Orden de Compra"]} no cumplio la condicion MNO .\n"+
+$"_______________________________________"</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i166">
+                                                    <PropertyName>ActiveClient</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>telegram</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                  <PropertyValue z:Id="i167">
+                                                    <PropertyName>ChatID</PropertyName>
+                                                    <_dataType>Expression</_dataType>
+                                                    <_expression>user_TelegramID</_expression>
+                                                    <_screenShotBase64 i:nil="true" />
+                                                    <_value i:nil="true" />
+                                                    <_xpathSettings xmlns:d27p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                                  </PropertyValue>
+                                                </PropertyValues>
+                                                <SelectedOptionId i:nil="true" />
+                                                <AutoCloseMode>None</AutoCloseMode>
+                                                <EnableStatus>true</EnableStatus>
+                                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                                <RetryCount>-1</RetryCount>
+                                                <Text>Mensaje | Pedido incumple MNO</Text>
+                                                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                                              </AbstractStep>
+                                            </Childs>
+                                            <Id>8a64c243-2acf-45a1-8b0d-2aa6059b657d</Id>
+                                            <Parent z:Ref="i151" />
+                                            <PropertyValues />
+                                            <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
+                                            <EnableStatus>true</EnableStatus>
+                                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                            <RetryCount>-1</RetryCount>
+                                            <Text>No</Text>
+                                            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                                          </AbstractStep>
+                                        </Childs>
+                                        <Id>ddde20bb-25d5-497e-915d-706cdef540e3</Id>
+                                        <Parent z:Ref="i145" />
+                                        <PropertyValues>
+                                          <PropertyValue z:Id="i168">
+                                            <PropertyName>Condition</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>bool_MNO</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                        </PropertyValues>
+                                        <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>true</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text>¿MNO vacio?</Text>
+                                        <_activityFullName>BR.Core.Base.If</_activityFullName>
+                                      </AbstractStep>
+                                      <AbstractStep z:Id="i169" i:type="ExecutedStep">
+                                        <Childs />
+                                        <Id>8fe57022-716d-453a-b159-98e4b69f9945</Id>
+                                        <Parent z:Ref="i145" />
+                                        <PropertyValues>
+                                          <PropertyValue z:Id="i170">
+                                            <PropertyName>Count</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>1</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                        </PropertyValues>
+                                        <SelectedOptionId>0</SelectedOptionId>
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>true</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text>Delay Transitorio</Text>
+                                        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                                      </AbstractStep>
+                                    </Childs>
+                                    <Id>c39bfca8-1fac-4c0c-bc94-4d5f169af0ac</Id>
+                                    <Parent z:Ref="i144" />
+                                    <PropertyValues />
+                                    <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
+                                    <EnableStatus>true</EnableStatus>
+                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                    <RetryCount>-1</RetryCount>
+                                    <Text>Si</Text>
+                                    <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                                  </AbstractStep>
+                                  <AbstractStep z:Id="i171" i:type="ExecutedStep">
+                                    <Childs>
+                                      <AbstractStep z:Id="i172" i:type="ExecutedStep">
+                                        <Childs />
+                                        <Id>63fdd722-88c5-4667-9663-67728fe1e156</Id>
+                                        <Parent z:Ref="i171" />
+                                        <PropertyValues>
+                                          <PropertyValue z:Id="i173">
+                                            <PropertyName>Message</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>$"_______________________________________\n\n"+
+$"❌ Pedido {fila["Orden de Compra"]} tiene Item pero no se encontro en 'Inventario All Star'.\n"+
+$"_______________________________________"</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                          <PropertyValue z:Id="i174">
+                                            <PropertyName>ActiveClient</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>telegram</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                          <PropertyValue z:Id="i175">
+                                            <PropertyName>ChatID</PropertyName>
+                                            <_dataType>Expression</_dataType>
+                                            <_expression>user_TelegramID</_expression>
+                                            <_screenShotBase64 i:nil="true" />
+                                            <_value i:nil="true" />
+                                            <_xpathSettings xmlns:d23p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                          </PropertyValue>
+                                        </PropertyValues>
+                                        <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
+                                        <EnableStatus>true</EnableStatus>
+                                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                        <RetryCount>-1</RetryCount>
+                                        <Text>Mensaje | Pedido sin item</Text>
+                                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                                      </AbstractStep>
+                                    </Childs>
+                                    <Id>136103a8-a332-43b0-8504-08250bcf2898</Id>
+                                    <Parent z:Ref="i144" />
+                                    <PropertyValues />
+                                    <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
+                                    <EnableStatus>true</EnableStatus>
+                                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                    <RetryCount>-1</RetryCount>
+                                    <Text>No</Text>
+                                    <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                                  </AbstractStep>
+                                </Childs>
+                                <Id>f04cb217-f939-45e8-80a6-fa9594287448</Id>
+                                <Parent z:Ref="i135" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i176">
+                                    <PropertyName>Condition</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>aux != null</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>¿Se encontro el Item?</Text>
+                                <_activityFullName>BR.Core.Base.If</_activityFullName>
+                              </AbstractStep>
+                              <AbstractStep z:Id="i177" i:type="ExecutedStep">
+                                <Childs />
+                                <Id>01c451aa-31c5-4d58-80f3-57b1eaae3605</Id>
+                                <Parent z:Ref="i135" />
+                                <PropertyValues>
+                                  <PropertyValue z:Id="i178">
+                                    <PropertyName>Count</PropertyName>
+                                    <_dataType>Expression</_dataType>
+                                    <_expression>1</_expression>
+                                    <_screenShotBase64 i:nil="true" />
+                                    <_value i:nil="true" />
+                                    <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                                  </PropertyValue>
+                                </PropertyValues>
+                                <SelectedOptionId>0</SelectedOptionId>
+                                <AutoCloseMode>None</AutoCloseMode>
+                                <EnableStatus>true</EnableStatus>
+                                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                                <RetryCount>-1</RetryCount>
+                                <Text>Delay Transitorio</Text>
+                                <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                              </AbstractStep>
+                            </Childs>
+                            <Id>c50e815e-586e-4ca8-8a9b-b22ba2ac8731</Id>
+                            <Parent z:Ref="i129" />
+                            <PropertyValues />
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text></Text>
+                            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                          </AbstractStep>
+                        </Childs>
+                        <Id>edbb681c-4b83-4fa2-94da-2afef844b4c3</Id>
+                        <Parent z:Ref="i125" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i179">
+                            <PropertyName>Condition</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>fila["Item"].ToString().Equals("")</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>¿Item del producto esta vacio?</Text>
+                        <_activityFullName>BR.Core.Base.If</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i180" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>bc85b5f5-09da-4946-8bf2-68aca22fc3f3</Id>
+                        <Parent z:Ref="i125" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i181">
+                            <PropertyName>CSCode</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">//Eliminacion de primer valor de la lista y el DataTable
+
+if(SheetsTable.Rows.Count &gt; 0)
+{
+    SheetsTable.Rows.RemoveAt(0);
+}
+
+if(list_AuxRowsSheets.Count &gt; 0)
+{
+    list_AuxRowsSheets.RemoveAt(0);
+}
+
+//Eliminacion de primer valor en el archivo de pendientes
+
+var aux_line = File.ReadAllLines(dir_PendingTasks).ToList();
+
+if(aux_line.Count &gt; 0)
+{
+    aux_line.RemoveAt(0);
+    File.WriteAllLines(dir_PendingTasks, aux_line);
+}</_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Codigo: "Chequeo" de pedidos revisados</Text>
+                        <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i182" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>75a166b5-bc7a-4720-83c0-28bcb43637f9</Id>
+                        <Parent z:Ref="i125" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i183">
+                            <PropertyName>Count</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>500</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId>1</SelectedOptionId>
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Delay Transitorio</Text>
+                        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>ba7d9b9e-7109-4db0-a0b8-89a4cbd4e89e</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i184">
+                        <PropertyName>Condition</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>SheetsTable.Rows.Count &gt; 0</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i185">
+                        <PropertyName>Counter</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>i</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Ciclo: Recorrido de pedidos pendientes</Text>
+                    <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i186" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>f41f01a9-9ae8-4332-a295-11effc745c2e</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i187">
+                        <PropertyName>Count</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>1</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId>0</SelectedOptionId>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>Delay Transitorio</Text>
+                    <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i188" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i189" i:type="ExecutedStep">
+                        <Childs>
+                          <AbstractStep z:Id="i190" i:type="ExecutedStep">
+                            <Childs />
+                            <Id>88c88e17-6a96-4c74-ba04-75ab54a7b939</Id>
+                            <Parent z:Ref="i189" />
+                            <PropertyValues>
+                              <PropertyValue z:Id="i191">
+                                <PropertyName>FilePath</PropertyName>
+                                <_dataType>Expression</_dataType>
+                                <_expression>dir_PendingTasks</_expression>
+                                <_screenShotBase64 i:nil="true" />
+                                <_value i:nil="true" />
+                                <_xpathSettings xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                              </PropertyValue>
+                            </PropertyValues>
+                            <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
+                            <EnableStatus>true</EnableStatus>
+                            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                            <RetryCount>-1</RetryCount>
+                            <Text>Eliminar "Pendientes.txt"</Text>
+                            <_activityFullName>Activities.Files.DeleteFile</_activityFullName>
+                          </AbstractStep>
+                        </Childs>
+                        <Id>6434a16b-3688-4eca-b596-f7b36d6ad7d0</Id>
+                        <Parent z:Ref="i188" />
+                        <PropertyValues />
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>No, todo fue revisado</Text>
+                        <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i192" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>815b0417-b4dc-4c41-92b3-ac53380244de</Id>
+                        <Parent z:Ref="i188" />
+                        <PropertyValues />
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Si, aun falta pedidos por revisar</Text>
+                        <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>213adb8f-f27d-4814-8cbb-38bc902fd2fe</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i193">
+                        <PropertyName>Condition</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression> File.ReadAllLines(dir_PendingTasks).ToList().Count &lt;= 0</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>¿No quedaron pedidos por revisar?</Text>
+                    <_activityFullName>BR.Core.Base.If</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i194" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>afda6c96-eb39-4ee8-ba34-680d040e93ef</Id>
+                    <Parent z:Ref="i99" />
+                    <PropertyValues />
+                    <SelectedOptionId>0</SelectedOptionId>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text>System Pause</Text>
+                    <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>222fc7bf-03fb-49ee-ab72-1e7a38c8c9dc</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Compilacion de pedidos pendientes</Text>
+                <_activityFullName>BR.Core.Base.Container</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i195" i:type="ExecutedStep">
+                <Childs />
+                <Id>7f6226a5-d712-41ca-99ac-e6148bddde36</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i196">
+                    <PropertyName>Count</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>1</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId>0</SelectedOptionId>
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Delay Transitorio</Text>
+                <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i197" i:type="ExecutedStep">
+                <Childs />
+                <Id>d33b6556-fd86-48fb-bc10-51255f868989</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i198">
+                    <PropertyName>Message</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"_______________________________________\n\n"+
+$"🚨 Spatch procedera con la creacion de planillas\n"+
+$"_______________________________________"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i199">
+                    <PropertyName>ActiveClient</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>telegram</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i200">
+                    <PropertyName>ChatID</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>user_TelegramID</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Mensaje | Inicio de planillas</Text>
+                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i201" i:type="ExecutedStep">
+                <Childs />
+                <Id>4e9b71ef-c84e-40d1-b62f-6c8807f404f5</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i202">
+                    <PropertyName>FileDirectoryPath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"{dir_BotFolder}\\assets\\Éxito\\Pendientes_Planilla.txt"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i203">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_exito</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Hay pedidos pendientes de Exito?</Text>
+                <_activityFullName>Activities.Files.PathExist</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i204" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i205" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i206" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>21aee660-13aa-45af-9a7c-3b65769125f7</Id>
+                        <Parent z:Ref="i205" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i207">
+                            <PropertyName>Message</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>$"_______________________________________\n\n"+
+$"📄 Se creara la planilla de Exito\n"+
+$"_______________________________________"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i208">
+                            <PropertyName>ActiveClient</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>telegram</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i209">
+                            <PropertyName>ChatID</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>user_TelegramID</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Mensaje | Planilla Exito</Text>
+                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i210" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>06432ee9-3f35-46c1-9634-5ec33c57e979</Id>
+                        <Parent z:Ref="i205" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i211">
+                            <PropertyName>FilePath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"sub_Bots\Exito.pix"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i212">
+                            <PropertyName>Parameters</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d15p1:ArrayOfArgumentItem">
+                              <d15p1:ArgumentItem z:Id="i213">
+                                <d15p1:ArgumentName>dir_BotFolder</d15p1:ArgumentName>
+                                <d15p1:Expression>dir_BotFolder</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i214">
+                                <d15p1:ArgumentName>user_TelegramID</d15p1:ArgumentName>
+                                <d15p1:Expression>user_TelegramID</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i215">
+                                <d15p1:ArgumentName>telegram</d15p1:ArgumentName>
+                                <d15p1:Expression>telegram</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                            </_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>eac18a0c-4152-49cf-88f4-9630b8c7ea0f</Id>
+                    <Parent z:Ref="i204" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i216" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>07102d0a-cda5-4929-a7fb-15cd955a71d5</Id>
+                    <Parent z:Ref="i204" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>b7b6661e-c6bc-4c3e-9797-85175bc32b73</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i217">
+                    <PropertyName>Condition</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_exito</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Se debe llenar la planilla de Exito?</Text>
+                <_activityFullName>BR.Core.Base.If</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i218" i:type="ExecutedStep">
+                <Childs />
+                <Id>dfb50dd9-ef9d-4a6a-83cf-6dfe6b2cb2b2</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i219">
+                    <PropertyName>FileDirectoryPath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"{dir_BotFolder}\\assets\\Falabella\\Pendientes_Planilla.txt"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i220">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_falabella</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Hay pedidos pendientes de Falabella?</Text>
+                <_activityFullName>Activities.Files.PathExist</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i221" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i222" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i223" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>081284bf-a9df-4673-8da7-23c556df3e6d</Id>
+                        <Parent z:Ref="i222" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i224">
+                            <PropertyName>Message</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>$"_______________________________________\n\n"+
+$"📄 Se creara la planilla de Falabella\n"+
+$"_______________________________________"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i225">
+                            <PropertyName>ActiveClient</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>telegram</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i226">
+                            <PropertyName>ChatID</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>user_TelegramID</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>false</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Mensaje | Planilla Falabella</Text>
+                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i227" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>02af0ce9-7291-4cd6-8777-4e66c455d615</Id>
+                        <Parent z:Ref="i222" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i228">
+                            <PropertyName>FilePath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"sub_Bots\Falabella.pix"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i229">
+                            <PropertyName>Parameters</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d15p1:ArrayOfArgumentItem">
+                              <d15p1:ArgumentItem z:Id="i230">
+                                <d15p1:ArgumentName>user_TelegramID</d15p1:ArgumentName>
+                                <d15p1:Expression>user_TelegramID</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i231">
+                                <d15p1:ArgumentName>dir_BotFolder</d15p1:ArgumentName>
+                                <d15p1:Expression>dir_BotFolder</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i232">
+                                <d15p1:ArgumentName>telegram</d15p1:ArgumentName>
+                                <d15p1:Expression>telegram</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i233">
+                                <d15p1:ArgumentName>clave_cuenta</d15p1:ArgumentName>
+                                <d15p1:Expression>clave_Falabella</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i234">
+                                <d15p1:ArgumentName>dir_DownloadFolder</d15p1:ArgumentName>
+                                <d15p1:Expression>dir_DownloadFolder</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                            </_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>false</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>6a84c9f8-b671-4ccd-8f2d-8087941e85f5</Id>
+                    <Parent z:Ref="i221" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i235" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>0aace433-1a11-493e-bc4f-a96ed209c100</Id>
+                    <Parent z:Ref="i221" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>b6b40ac5-0a55-42c7-8c54-41ae65bf534a</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i236">
+                    <PropertyName>Condition</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_falabella</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Se debe llenar la planilla de Falabella?</Text>
+                <_activityFullName>BR.Core.Base.If</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i237" i:type="ExecutedStep">
+                <Childs />
+                <Id>07205d97-e5df-408a-b36c-06d9f5bae675</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i238">
+                    <PropertyName>FileDirectoryPath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"{dir_BotFolder}\\assets\\Sodimac\\Pendientes_Planilla.txt"</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i239">
+                    <PropertyName>Result</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_sodimac</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Hay pedidos pendientes de Sodimac?</Text>
+                <_activityFullName>Activities.Files.PathExist</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i240" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i241" i:type="ExecutedStep">
+                    <Childs>
+                      <AbstractStep z:Id="i242" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>5ca5ece8-1541-4fde-b831-c41312b49c97</Id>
+                        <Parent z:Ref="i241" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i243">
+                            <PropertyName>Message</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>$"_______________________________________\n\n"+
+$"📄 Se creara la planilla de Sodimac\n"+
+$"_______________________________________"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i244">
+                            <PropertyName>ActiveClient</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>telegram</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i245">
+                            <PropertyName>ChatID</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>user_TelegramID</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text>Mensaje | Planilla Sodimac</Text>
+                        <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+                      </AbstractStep>
+                      <AbstractStep z:Id="i246" i:type="ExecutedStep">
+                        <Childs />
+                        <Id>f957ce02-a693-4688-a78e-b6820086c3e0</Id>
+                        <Parent z:Ref="i241" />
+                        <PropertyValues>
+                          <PropertyValue z:Id="i247">
+                            <PropertyName>FilePath</PropertyName>
+                            <_dataType>Expression</_dataType>
+                            <_expression>@"sub_Bots\Sodimac.pix"</_expression>
+                            <_screenShotBase64 i:nil="true" />
+                            <_value i:nil="true" />
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                          <PropertyValue z:Id="i248">
+                            <PropertyName>Parameters</PropertyName>
+                            <_dataType>Value</_dataType>
+                            <_expression i:nil="true" />
+                            <_screenShotBase64 i:nil="true" />
+                            <_value xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d15p1:ArrayOfArgumentItem">
+                              <d15p1:ArgumentItem z:Id="i249">
+                                <d15p1:ArgumentName>dir_BotFolder</d15p1:ArgumentName>
+                                <d15p1:Expression>dir_BotFolder</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i250">
+                                <d15p1:ArgumentName>user_TelegramID</d15p1:ArgumentName>
+                                <d15p1:Expression>user_TelegramID</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                              <d15p1:ArgumentItem z:Id="i251">
+                                <d15p1:ArgumentName>telegram</d15p1:ArgumentName>
+                                <d15p1:Expression>telegram</d15p1:Expression>
+                                <d15p1:Type i:nil="true" />
+                              </d15p1:ArgumentItem>
+                            </_value>
+                            <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                          </PropertyValue>
+                        </PropertyValues>
+                        <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
+                        <EnableStatus>true</EnableStatus>
+                        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                        <RetryCount>-1</RetryCount>
+                        <Text></Text>
+                        <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
+                      </AbstractStep>
+                    </Childs>
+                    <Id>30da0330-b150-4fdc-acd7-d7f53500f3fe</Id>
+                    <Parent z:Ref="i240" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i252" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>b72d8fab-730c-4048-8e56-5bf0053422fc</Id>
+                    <Parent z:Ref="i240" />
+                    <PropertyValues />
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>5a1827a5-6c4d-466d-aab3-0eb238cace58</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i253">
+                    <PropertyName>Condition</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>bool_sodimac</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>¿Se debe llenar la planilla de Sodimac?</Text>
+                <_activityFullName>BR.Core.Base.If</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>7be33a1e-acb1-471b-84b1-965056381d4d</Id>
+            <Parent z:Ref="i14" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Try</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i254" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i255" i:type="ExecutedStep">
+                <Childs />
+                <Id>fed01f38-c0ab-442b-a5ac-64eb0cc18eda</Id>
+                <Parent z:Ref="i254" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i256">
+                    <PropertyName>Text</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>source +"\n\n\n"+ msg</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>7e527253-f9b9-481d-87bf-ac6f2d9fdf83</Id>
+            <Parent z:Ref="i14" />
+            <PropertyValues>
+              <PropertyValue z:Id="i257">
+                <PropertyName>Message</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>msg</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i258">
+                <PropertyName>Source</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>source</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Catch</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i259" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i260" i:type="ExecutedStep">
+                <Childs />
+                <Id>84b9653d-a5c2-4937-9bbb-a7be64f8dbbd</Id>
+                <Parent z:Ref="i259" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i261">
+                    <PropertyName>CSCode</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://www.w3.org/2001/XMLSchema" i:type="d11p1:string">tiempo_total = (DateTime.Now - temp_StartTime);</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Fin de cronometro</Text>
+                <_activityFullName>BR.Core.Base.ExecuteCSCode</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i262" i:type="ExecutedStep">
+                <Childs />
+                <Id>0163d353-63b5-4268-847b-bdea6024a7c1</Id>
+                <Parent z:Ref="i259" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i263">
+                    <PropertyName>Message</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>$"🗒️   FIN DEL PROCESO\n"+
+$"_______________________________________\n"+
+$"                               Spatch Bot                               "</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i264">
+                    <PropertyName>ActiveClient</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>telegram</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i265">
+                    <PropertyName>ChatID</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>user_TelegramID</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Mensaje | Fin del proceso</Text>
+                <_activityFullName>Activities.Telegram.SendMessage</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i266" i:type="ExecutedStep">
+                <Childs />
+                <Id>35f6dab7-c524-47dd-bc66-baa6e0f5df03</Id>
+                <Parent z:Ref="i259" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i267">
+                    <PropertyName>ActiveClient</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>telegram</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.Telegram.CloseConnection</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i268" i:type="ExecutedStep">
+                <Childs />
+                <Id>9878c9a3-852f-4c1f-b56f-5d6f5f372db9</Id>
+                <Parent z:Ref="i259" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i269">
+                    <PropertyName>Service</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>sheets</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.GoogleSheets.StopService</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>737535cb-18d8-415c-a4e4-ef06e5720710</Id>
+            <Parent z:Ref="i14" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.Finally</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>50d801a8-01c8-4c54-8212-3ba5d5c10fc1</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Try/Catch: Recoleccion de pedidos | Google Sheets</Text>
+        <_activityFullName>BR.Core.Base.TryCatch</_activityFullName>
+      </AbstractStep>
+    </Childs>
+    <Id>91118e82-6813-4c95-bdd6-1adb2a98673d</Id>
+    <Parent i:nil="true" />
+    <PropertyValues />
+    <SelectedOptionId i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
+    <EnableStatus>true</EnableStatus>
+    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+    <RetryCount>-1</RetryCount>
+    <Text></Text>
+    <_activityFullName>BR.Core.Base.Container</_activityFullName>
+  </Logic>
+  <Name>main.pix</Name>
+  <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <Params />
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>3</d2p1:_Build>
+    <d2p1:_Major>2</d2p1:_Major>
+    <d2p1:_Minor>27</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
+  <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
+    <d2p1:Variable z:Id="i270">
+      <d2p1:DefaultValueExpression>"26/7/2025"</d2p1:DefaultValueExpression>
+      <d2p1:Description>TEMP -&gt; 25/07/2025</d2p1:Description>
+      <d2p1:Name>ultima_Fecha</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i271">
+      <d2p1:DefaultValueExpression>"C:\\Users\\autom\\OneDrive\\Desktop\\BOTS\\BOT 8 - Planilla y Despacho\\Planilla_Despacho"</d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>dir_BotFolder</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i272">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>SheetsTable</d2p1:Name>
+      <d2p1:TypeString>System.Data.DataTable</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i273">
+      <d2p1:DefaultValueExpression>8335386029</d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>user_TelegramID</d2p1:Name>
+      <d2p1:TypeString>System.Int64</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i274">
+      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>tiempo_total</d2p1:Name>
+      <d2p1:TypeString>System.Object</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i275">
+      <d2p1:DefaultValueExpression>"AllStart2025*"</d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>clave_Falabella</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+    <d2p1:Variable z:Id="i276">
+      <d2p1:DefaultValueExpression>"C:\\Users\\autom\\Downloads"</d2p1:DefaultValueExpression>
+      <d2p1:Description></d2p1:Description>
+      <d2p1:Name>dir_DownloadFolder</d2p1:Name>
+      <d2p1:TypeString>System.String</d2p1:TypeString>
+    </d2p1:Variable>
+  </Variables>
+  <Version i:nil="true" />
+</Script>
