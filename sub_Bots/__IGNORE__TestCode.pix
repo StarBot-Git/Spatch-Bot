@@ -29,7 +29,7 @@
         </PropertyValues>
         <SelectedOptionId>1</SelectedOptionId>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
@@ -37,10 +37,198 @@
       </AbstractStep>
       <AbstractStep z:Id="i6" i:type="ExecutedStep">
         <Childs />
-        <Id>3643b870-fe11-4d69-bdf5-2f5b741d76ee</Id>
+        <Id>c29deee7-ed66-4071-bdda-0df6c54e25fa</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i7">
+            <PropertyName>CredentialPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"config\sheets.json"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i8">
+            <PropertyName>SpreadsheetId</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"1gsnrCQozozgCe0zXLFVPs9-q8FMCzrNXdg4JuojsCOo"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i9">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>sheets</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text>Google Sheets | "Inventario All Star"</Text>
+        <_activityFullName>Activities.GoogleSheets.StartService</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i10" i:type="ExecutedStep">
+        <Childs />
+        <Id>6c8284b5-5dbc-4d11-80a4-2604d7d9b9dd</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i11">
+            <PropertyName>SheetName</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"Togocol"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i12">
+            <PropertyName>Cell</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"M667"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i13">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>vari</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i14">
+            <PropertyName>Service</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>sheets</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.GoogleSheets.ReadCell</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i15" i:type="ExecutedStep">
+        <Childs />
+        <Id>c9ba8b0c-9c84-4f39-b76c-2c36776f5621</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i16">
+            <PropertyName>Service</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>sheets</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.GoogleSheets.StopService</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i17" i:type="ExecutedStep">
+        <Childs />
+        <Id>58b96464-e415-4d72-bdc7-fe467392b7ca</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i18">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"XXXX"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i19">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>AUX</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i20" i:type="ExecutedStep">
+        <Childs />
+        <Id>c51ffc7d-4088-4856-a222-7015eba2e524</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i21">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>AUX.Replace(" ","").Split("-")</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i22">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>AUX2</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i23" i:type="ExecutedStep">
+        <Childs />
+        <Id>0ccc5b9c-7758-4e6f-b769-f08050e40c21</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i24">
+            <PropertyName>Text</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>"\""+AUX2.Count() +"\""</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i25" i:type="ExecutedStep">
+        <Childs />
+        <Id>3643b870-fe11-4d69-bdf5-2f5b741d76ee</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i26">
             <PropertyName>SearchBy</PropertyName>
             <_dataType>Value</_dataType>
             <_expression i:nil="true" />
@@ -48,20 +236,20 @@
             <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/Web.Core" i:type="d7p1:ElementSearchBy">XPath</_value>
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i8">
+          <PropertyValue z:Id="i27">
             <PropertyName>SearchString</PropertyName>
             <_dataType>XPath</_dataType>
             <_expression i:nil="true" />
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
-            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i9">
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" z:Id="i28">
               <d7p1:Nodes xmlns:d8p1="http://schemas.datacontract.org/2004/07/System.Collections.ObjectModel">
                 <d8p1:list>
-                  <d7p1:XPathNode z:Id="i10">
+                  <d7p1:XPathNode z:Id="i29">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i11">
+                        <d7p1:XPathAttribute z:Id="i30">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -74,11 +262,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>html</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i12">
+                  <d7p1:XPathNode z:Id="i31">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i13">
+                        <d7p1:XPathAttribute z:Id="i32">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -91,11 +279,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>body</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i14">
+                  <d7p1:XPathNode z:Id="i33">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i15">
+                        <d7p1:XPathAttribute z:Id="i34">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -108,11 +296,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>app-root</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i16">
+                  <d7p1:XPathNode z:Id="i35">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i17">
+                        <d7p1:XPathAttribute z:Id="i36">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -125,11 +313,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>div</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i18">
+                  <d7p1:XPathNode z:Id="i37">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i19">
+                        <d7p1:XPathAttribute z:Id="i38">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -142,11 +330,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>app-historical-shipments</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i20">
+                  <d7p1:XPathNode z:Id="i39">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i21">
+                        <d7p1:XPathAttribute z:Id="i40">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -159,11 +347,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>div</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i22">
+                  <d7p1:XPathNode z:Id="i41">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i23">
+                        <d7p1:XPathAttribute z:Id="i42">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -176,11 +364,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>div</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i24">
+                  <d7p1:XPathNode z:Id="i43">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i25">
+                        <d7p1:XPathAttribute z:Id="i44">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -193,11 +381,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>fd-layout-panel</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i26">
+                  <d7p1:XPathNode z:Id="i45">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i27">
+                        <d7p1:XPathAttribute z:Id="i46">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -210,11 +398,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>fd-layout-panel-body</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i28">
+                  <d7p1:XPathNode z:Id="i47">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i29">
+                        <d7p1:XPathAttribute z:Id="i48">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -227,11 +415,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>div</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i30">
+                  <d7p1:XPathNode z:Id="i49">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i31">
+                        <d7p1:XPathAttribute z:Id="i50">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -244,11 +432,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>app-history-dispatch-list</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i32">
+                  <d7p1:XPathNode z:Id="i51">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i33">
+                        <d7p1:XPathAttribute z:Id="i52">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -261,11 +449,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>div</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i34">
+                  <d7p1:XPathNode z:Id="i53">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i35">
+                        <d7p1:XPathAttribute z:Id="i54">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -278,11 +466,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>table</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i36">
+                  <d7p1:XPathNode z:Id="i55">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i37">
+                        <d7p1:XPathAttribute z:Id="i56">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -295,11 +483,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>tbody</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i38">
+                  <d7p1:XPathNode z:Id="i57">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i39">
+                        <d7p1:XPathAttribute z:Id="i58">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -312,11 +500,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>tr</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i40">
+                  <d7p1:XPathNode z:Id="i59">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i41">
+                        <d7p1:XPathAttribute z:Id="i60">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -329,11 +517,11 @@
                     <d7p1:IsEnabled>true</d7p1:IsEnabled>
                     <d7p1:Name>td</d7p1:Name>
                   </d7p1:XPathNode>
-                  <d7p1:XPathNode z:Id="i42">
+                  <d7p1:XPathNode z:Id="i61">
                     <d7p1:AttributeOperators xmlns:d11p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
                     <d7p1:Attributes>
                       <d8p1:list>
-                        <d7p1:XPathAttribute z:Id="i43">
+                        <d7p1:XPathAttribute z:Id="i62">
                           <d7p1:IsEnabled>false</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>true</d7p1:IsPositionAttribute>
                           <d7p1:Operator>Equal</d7p1:Operator>
@@ -351,7 +539,7 @@
               <d7p1:ScreenShotBase64 i:nil="true" />
             </_xpathSettings>
           </PropertyValue>
-          <PropertyValue z:Id="i44">
+          <PropertyValue z:Id="i63">
             <PropertyName>Browser</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>chrome</_expression>
@@ -359,7 +547,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i45">
+          <PropertyValue z:Id="i64">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>xde</_expression>
@@ -370,18 +558,18 @@
         </PropertyValues>
         <SelectedOptionId>0</SelectedOptionId>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>Activities.Web.GetText</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i46" i:type="ExecutedStep">
+      <AbstractStep z:Id="i65" i:type="ExecutedStep">
         <Childs />
         <Id>ab9f6109-ed25-45af-8a92-238443287c36</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i47">
+          <PropertyValue z:Id="i66">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>xde.TrimEnd()</_expression>
@@ -389,7 +577,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i48">
+          <PropertyValue z:Id="i67">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>xde</_expression>
@@ -400,18 +588,18 @@
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i49" i:type="ExecutedStep">
+      <AbstractStep z:Id="i68" i:type="ExecutedStep">
         <Childs />
         <Id>0aa6e82e-a6e0-4943-a447-11656a9d41eb</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i50">
+          <PropertyValue z:Id="i69">
             <PropertyName>DirPath</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"C:\\Users\\autom\\Downloads"</_expression>
@@ -419,7 +607,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i51">
+          <PropertyValue z:Id="i70">
             <PropertyName>ListFilesOrCatalogs</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>list</_expression>
@@ -436,7 +624,7 @@
         <Text></Text>
         <_activityFullName>Activities.Files.GetListFilesOrCatalogs</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i52" i:type="ExecutedStep">
+      <AbstractStep z:Id="i71" i:type="ExecutedStep">
         <Childs />
         <Id>9f61b077-53ce-4257-91c0-e577efaf433b</Id>
         <Parent z:Ref="i2" />
@@ -448,6 +636,266 @@
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i72" i:type="ExecutedStep">
+        <Childs />
+        <Id>57737f54-3b85-455e-abd9-f2610d6e4baa</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.ExecuteScriptsInParallelActivity</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i73" i:type="ExecutedStep">
+        <Childs />
+        <Id>3abf22cc-2593-48b6-90ef-9e0334434060</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i74">
+            <PropertyName>Value</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>1</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i75">
+            <PropertyName>To</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>nodo</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i76" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i77" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i78" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i79" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>e390788f-3067-42fb-9daa-5f5f5553b272</Id>
+                    <Parent z:Ref="i78" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i80">
+                        <PropertyName>Text</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"Estado "+ nodo</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i81" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>d0d02737-4576-42c8-8550-89ba662ecdc6</Id>
+                    <Parent z:Ref="i78" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i82">
+                        <PropertyName>Value</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>2</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i83">
+                        <PropertyName>To</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>nodo</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>e8dcab8a-7400-4ade-8bbe-3b40d5a9985c</Id>
+                <Parent z:Ref="i77" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i84">
+                    <PropertyName>Value</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>1</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Estado 1</Text>
+                <_activityFullName>BR.Core.Base.Case</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i85" i:type="ExecutedStep">
+                <Childs>
+                  <AbstractStep z:Id="i86" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>dc6c2787-6f36-491c-9806-e40423a66f10</Id>
+                    <Parent z:Ref="i85" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i87">
+                        <PropertyName>Text</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>"Estado "+ nodo</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
+                  </AbstractStep>
+                  <AbstractStep z:Id="i88" i:type="ExecutedStep">
+                    <Childs />
+                    <Id>b298861a-50e5-4ffa-8f3a-cb0a2e3a37f4</Id>
+                    <Parent z:Ref="i85" />
+                    <PropertyValues>
+                      <PropertyValue z:Id="i89">
+                        <PropertyName>Value</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>1</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                      <PropertyValue z:Id="i90">
+                        <PropertyName>To</PropertyName>
+                        <_dataType>Expression</_dataType>
+                        <_expression>nodo</_expression>
+                        <_screenShotBase64 i:nil="true" />
+                        <_value i:nil="true" />
+                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                      </PropertyValue>
+                    </PropertyValues>
+                    <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>true</EnableStatus>
+                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                    <RetryCount>-1</RetryCount>
+                    <Text></Text>
+                    <_activityFullName>BR.Core.Base.Assign</_activityFullName>
+                  </AbstractStep>
+                </Childs>
+                <Id>45546655-a07c-4ce7-84d7-ad2c15cb71f8</Id>
+                <Parent z:Ref="i77" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i91">
+                    <PropertyName>Value</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>2</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text>Estado 2</Text>
+                <_activityFullName>BR.Core.Base.Case</_activityFullName>
+              </AbstractStep>
+              <AbstractStep z:Id="i92" i:type="ExecutedStep">
+                <Childs />
+                <Id>cb6cd57b-efaf-4355-8e84-4c964bebe4bd</Id>
+                <Parent z:Ref="i77" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.DefaultCase</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>cf2a65a3-1cc0-45e2-974f-3bf1b244bdfe</Id>
+            <Parent z:Ref="i76" />
+            <PropertyValues>
+              <PropertyValue z:Id="i93">
+                <PropertyName>Expression</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>nodo</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text>FSM | Descarga guias | Falabella</Text>
+            <_activityFullName>BR.Core.Base.Switch</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>903f39c7-33b3-4ed1-8f18-4a4f564caf94</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i94">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Value</_dataType>
+            <_expression i:nil="true" />
+            <_screenShotBase64 i:nil="true" />
+            <_value xmlns:d7p1="http://www.w3.org/2001/XMLSchema" i:type="d7p1:boolean">true</_value>
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i95">
+            <PropertyName>Counter</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.LoopWhile</_activityFullName>
       </AbstractStep>
     </Childs>
     <Id>128f19cc-a0f3-48c0-bc18-dd7a73f126bf</Id>
@@ -464,21 +912,21 @@
   <Name>__IGNORE__TestCode.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i53">
+    <Parameter z:Id="i96">
       <DefaultValueExpression>"prueba.2.ASB3@gmail.com"</DefaultValueExpression>
       <Description></Description>
       <Name>Correo_2</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Object</TypeString>
     </Parameter>
-    <Parameter z:Id="i54">
+    <Parameter z:Id="i97">
       <DefaultValueExpression>"allstar_collin"</DefaultValueExpression>
       <Description></Description>
       <Name>Contraseña_2</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i55">
+    <Parameter z:Id="i98">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>NewParameter</Name>

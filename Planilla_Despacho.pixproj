@@ -23,6 +23,10 @@
       <IsMain>false</IsMain>
       <Path>sub_Bots\__IGNORE__TestCode.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i7">
+      <IsMain>false</IsMain>
+      <Path>sub_Bots\Otros.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>Planilla_Despacho</Name>
